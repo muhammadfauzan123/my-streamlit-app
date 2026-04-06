@@ -100,7 +100,7 @@ with st.container():
 
 # --- FOOTER ---
 st.write("##")
-st.markdown("<div style='text-align: center; color: gray;'>© 2023 Profil Fauzan</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: gray;'>©Profil Fauzan</div>", unsafe_allow_html=True)
 
 # 1. KONFIGURASI HALAMAN & TEMA (Harus paling atas)
 st.set_page_config(
