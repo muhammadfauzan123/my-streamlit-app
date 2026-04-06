@@ -55,7 +55,7 @@ with st.container():
             "Saya senang membangun solusi digital yang memudahkan pekerjaan orang lain. "
             "Fokus saya adalah pada automasi, pengolahan data, dan pembuatan aplikasi web."
         )
-        st.write("[Pelajari lebih lanjut >](https://www.linkedin.com/in/fauzan-afif-ab907737a/)") # Ganti link
+        st.write("[Pelajari lebih lanjut >](https://www.linkedin.com/in/fauzan-afif)") # Ganti link
 
 # --- 2. SEKSI TENTANG SAYA ---
 with st.container():
