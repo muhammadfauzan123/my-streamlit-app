@@ -14,6 +14,17 @@ st.set_page_config(
 # Kita tambahkan CSS untuk membuat foto profil menjadi lingkaran
 st.markdown("""
 <style>
+/* MEMBUAT SEMUA FONT HITAM DENGAN GLOW PUTIH */
+    h1, h2, h3, h4, h5, h6, p, span, div, label, li {{
+        color: #000000 !important;
+        text-shadow: 
+            -1px -1px 0 #FFFFFF,  
+             1px -1px 0 #FFFFFF,
+            -1px  1px 0 #FFFFFF,  
+             1px  1px 0 #FFFFFF,
+             0px  0px 10px #FFFFFF; /* Efek glow agar terbaca */
+        font-weight: 600;
+    }}
     /* Membuat gambar profil menjadi lingkaran dan berbayang */
     .profile-pic {
         border-radius: 50%;
